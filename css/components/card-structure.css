@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(90deg, rgba(159,201,102,1) 0%, rgba(250,253,214,1) 54%, rgba(159,201,102,1) 100%);
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    z-index: 5;
+}
+h1{
+    font-family: "Montserrat", serif;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(247, 255, 245);
+}
+
+.bookmark-btn{
+    align-self: end;
+    position: relative;
+    top: -20px
+}
+
+.card{
+    position: static;
+    border: solid 1px;
+    border-radius: 20px;
+    margin: 4em 2em;
+    background-color: white;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto" ;
+}
+.tags{
+    align-self: center;
+    margin: 1.2em;
+}
+
+.answer_btn{
+    align-self: center;
+    padding: 0.8em;
+}
+
+footer {
+    position: sticky;
+    display: flex;
+    width: 100vw;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(159,201,102,1) 0%, rgba(250,253,214,1) 54%, rgba(159,201,102,1) 100%);
+    justify-content: center;
+    align-self: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.nav ul li {
+    margin: 0 0.5rem;
+    
+}
+
+.nav ul li a {
+    margin: 1.2em;
+    align-self: center;
+}
+
+.svg{
+    fill: #20520e;
+}
