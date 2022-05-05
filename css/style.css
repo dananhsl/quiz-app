@@ -1,1 +1,10 @@
 @import url(components/card-structure.css);
+@import url(components/nav.css);
+@import url(components/buttons.css);
+
+:root {
+    --lightgreen: rgba(159,201,102,1);
+    --gradient: rgba(250,253,214,1);
+    --darkgreen: #20520e; 
+    
+}

@@ -1,0 +1,30 @@
+.bookmark__btn{
+    all: unset;
+    align-self: end;
+    position: relative;
+    top: -20px
+}
+
+.bookmark__svg:enabled{
+    fill: tomato;
+}
+
+.card__btn{
+    all: initial;
+    align-self: center;
+    padding: 0.8em;
+    background-color: var(--lightgreen);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 0.5px grey;
+    font-family: "Roboto";
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px 0.2px;
+}
+
+.tags__btn{
+    all: unset;
+    background-color: var(--gradient);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
