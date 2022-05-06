@@ -4,7 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Create</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Merriweather:wght@300&family=Montserrat:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body></body>
+  <body class="create__body">
+    <header>
+      <h1>Create a Question</h1>
+    </header>
+
+    <main class="create">
+      <form method="GET" class="create__question">
+        <label for="question">Your Question</label>
+        <textarea name="question" id="question" cols="30" rows="2" placeholder="Write your question here"></textarea> 
+        <label for="answer">Your Answer</label>
+        <textarea name="answer" id="answer" cols="30" rows="4" placeholder="Write your answer here"></textarea>
+        <input type="submit" value="Add Question" class="card__btn">
+      </form>
+    </main>
+
+       <!----------------------------------- NAVBAR ------------------------------------->
+       <footer class="create_footer">
+        <nav class="create__nav">
+            <ul>
+                <li><a href="index.html"><svg class="svg" fill="current-color" width="50" height="50" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg></a></li>
+                <li><a href="bookmark.html"><svg class ="svg" fill="current-color" width="50" height="50" viewBox="0 0 30 30"><path d="M23,27l-8-7l-8,7V5c0-1.105,0.895-2,2-2h12c1.105,0,2,0.895,2,2V27z"/></svg></a></li>
+                <li><a href="create.html"><svg class="svg" width="50" height="50" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg></a></li>
+                <li><a href="profile.html"><svg class="svg" fill="current-color" width="50" height="50" viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg></a></li>
+            </ul>
+        </nav>
+      </footer>
+  </body>
 </html>
