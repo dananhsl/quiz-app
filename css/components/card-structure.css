@@ -3,7 +3,7 @@
 }
 
 header{
-    background: linear-gradient(90deg, var(--lightgreen) 0%, var(--gradient) 54%, var(--lightgreen) 100%);
+    background: linear-gradient(180deg, var(--lightgreen) 0%, var(--gradient) 80%, var(--background) 100%);
     position: sticky;
     width: 100vw;
     top: 0;
@@ -13,30 +13,36 @@ h1{
     font-family: "Montserrat", serif;
     font-size: 3em;
     text-align: center;
-    
+    text-shadow: 5px 5px 2px rgb(11, 88, 17);
+    color:white;    
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 body {
     display:flex;
     flex-direction: column;
     margin: auto;
-    background: rgb(247, 255, 245);
+    background: var(--background);
 }
 
 .card{
+    display: flex;
+    justify-self: center;
+    align-content: center;
     position: static;
     box-shadow: 1px 2px 2px 3px grey;
     border-radius: 20px;
-    margin: 4em 2em;
+    margin: 4em auto;
     background-color: white;
     padding: 0.5em;
     display: flex;
     flex-direction: column;
     font-family: "Roboto" ;
+    font-size: 1.2em;
+    max-width: 500px;
 }
 .card__question{
     position: relative;
@@ -49,9 +55,6 @@ body {
     margin: 1.2em;
 }
 
-.answer_btn{
-    align-self: center;
-    padding: 0.8em;
-}
+
 
 
