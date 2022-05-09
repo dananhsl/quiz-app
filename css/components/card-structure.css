@@ -55,6 +55,12 @@ body {
     margin: 1.2em;
 }
 
+.card__answer--hidden{
+    display: none;
+}
 
-
-
+.card__answer{
+    position: relative;
+    right: -10px;
+    width: 480px;
+}
