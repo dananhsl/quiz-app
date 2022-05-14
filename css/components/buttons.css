@@ -1,47 +1,48 @@
-.bookmark__btn{
-    all: unset;
-    cursor: pointer;
-    align-self: end;
-    position: relative;
-    top: -20px
+.bookmark__btn {
+	all: unset;
+	cursor: pointer;
+	align-self: end;
+	position: relative;
+	top: -20px;
 }
 
-.bookmark__svg--red{
-    fill: tomato;
+.bookmark__svg--red {
+	fill: tomato;
 }
 
-.card__btn{
-    all: initial;
-    cursor:pointer;
-    align-self: center;
-    padding: 0.8em;
-    background-color: var(--lightgreen);
-    border-radius: 20px;
-    text-shadow: 1px 1px 1px black;
-    box-shadow: 1px 1px 1px 0.5px grey;
-    font-family: "Roboto";
-    color: white;
-    font-size: 1em;
+.card__btn {
+	all: initial;
+	cursor: pointer;
+	align-self: center;
+	padding: 0.8em;
+	background-color: var(--lightgreen);
+	border-radius: 20px;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 1px 1px 1px 0.5px grey;
+	font-family: 'Roboto';
+	color: white;
+	font-size: 1em;
 }
 
-.tags__btn{
-    all: unset;
-    background-color: var(--gradient);
-    padding: 15px;
-    margin: 10px;
-    border-radius: 15px;
+.tags__btn {
+	all: unset;
+	background-color: var(--gradient);
+	padding: 15px;
+	margin: 10px;
+	border-radius: 15px;
 }
 
-.profile__logout{
-    all:initial;
-    cursor:pointer;
-    align-self: center;
-    padding: 0.8em;
-    background-color: var(--lightgreen);
-    border-radius: 20px;
-    text-shadow: 1px 1px 1px black;
-    box-shadow: 1px 1px 1px 0.5px grey;
-    font-family: "Roboto";
-    color: white;
-    font-size: 1em;
+.profile__logout {
+	display: flex;
+	all: initial;
+	cursor: pointer;
+	align-self: center;
+	padding: 0.8em;
+	background-color: var(--lightgreen);
+	border-radius: 20px;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 1px 1px 1px 0.5px grey;
+	font-family: 'Roboto';
+	color: white;
+	font-size: 1em;
 }
